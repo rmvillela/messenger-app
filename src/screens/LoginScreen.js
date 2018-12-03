@@ -12,7 +12,7 @@ class LoginScreen extends React.Component {
 
   render() {
     return (
-      <ImageBackground style={{ flex: 1 }} source={require('../images/bg.png')}>
+      <ImageBackground style={{ flex: 1 }} source={require('../../assets/images/bg.png')}>
         <View style={{ flex: 1, padding: 10 }}>
           <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
             <Text style={{ fontSize: 25, color: "#fff" }}>The App</Text>

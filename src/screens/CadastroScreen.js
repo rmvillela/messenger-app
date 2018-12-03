@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import { modificarNome, modificarEmail, modificarSenha } from '../actions/AutenticacaoActions';
 
 const CadastroScreen = props => (
-  <ImageBackground style={{ flex: 1 }} source={require('../images/bg.png')}>
+  <ImageBackground style={{ flex: 1 }} source={require('../../assets/images/bg.png')}>
     <View style={{ flex: 1, padding: 10 }}>
       <View style={{ flex: 4, justifyContent: 'center' }}>
         <TextInput value={props.nome} placeholder="Nome" style={{ height: 45, fontSize: 20, borderBottomColor: "#000", borderBottomWidth: 1, color: "#fff" }} onChangeText={texto => props.modificarNome(texto)}/>
