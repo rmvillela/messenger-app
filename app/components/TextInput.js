@@ -9,7 +9,7 @@ export default class TextInputFont extends React.Component {
   
   async componentDidMount() {
     await Font.loadAsync({
-      'ibmplexmono-light': require('../../assets/fonts/IBMPlexMono-Light.ttf')
+      'ibmplexmono-light': require('../assets/fonts/IBMPlexMono-Light.ttf')
     })
 
     this.setState({ fontLoaded: true })
